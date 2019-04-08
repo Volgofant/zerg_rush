@@ -19,7 +19,7 @@ for (let i = 0; i < 2; i++) {
     a != "" && b != "" && a.length < 50 ) {
     appData.expenses[a] = b;
 } else {
-    i = 0;
+    i = i - 1;
 }  
 };
 
